@@ -8,37 +8,37 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = sadad
 build_property.RootNamespace = sadad
-build_property.ProjectDir = E:\rami\Projects\Sadad\chalange\sadad\
+build_property.ProjectDir = e:\rami\Projects\Sadad\chalange\sadad\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = E:\rami\Projects\Sadad\chalange\sadad
+build_property.MSBuildProjectDirectory = e:\rami\Projects\Sadad\chalange\sadad
 build_property._RazorSourceGeneratorDebug = 
 
-[E:/rami/Projects/Sadad/chalange/sadad/Views/Home/Config.cshtml]
+[e:/rami/Projects/Sadad/chalange/sadad/Views/Home/Config.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb25maWcuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/rami/Projects/Sadad/chalange/sadad/Views/Home/Index.cshtml]
+[e:/rami/Projects/Sadad/chalange/sadad/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/rami/Projects/Sadad/chalange/sadad/Views/Shared/Error.cshtml]
+[e:/rami/Projects/Sadad/chalange/sadad/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/rami/Projects/Sadad/chalange/sadad/Views/Shared/_ValidationScriptsPartial.cshtml]
+[e:/rami/Projects/Sadad/chalange/sadad/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/rami/Projects/Sadad/chalange/sadad/Views/_ViewImports.cshtml]
+[e:/rami/Projects/Sadad/chalange/sadad/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/rami/Projects/Sadad/chalange/sadad/Views/_ViewStart.cshtml]
+[e:/rami/Projects/Sadad/chalange/sadad/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/rami/Projects/Sadad/chalange/sadad/Views/Shared/_Layout.cshtml]
+[e:/rami/Projects/Sadad/chalange/sadad/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-z8gwwzeoni
