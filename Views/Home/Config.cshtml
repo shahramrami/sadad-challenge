@@ -1,0 +1,54 @@
+﻿@model IEnumerable<sadad.Models.Config>
+@{
+    ViewData["Title"] = "Config Page";
+}
+<h1>@ViewData["Title"]</h1>
+
+<div class="panel panel-primary">
+
+    <table class="table table-condensed table-hover">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Id)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.fromCurrency)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.toCurrency)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Rate)
+                </th>
+
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Id)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.fromCurrency)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.toCurrency)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Rate)
+                    </td>
+
+                </tr>
+            }
+        </tbody>
+    </table>
+    <form method="post" action="ClearData">
+        <button type="submit">Clear Data</button>
+    </form>
+    <form method="post" action="ResetData">
+        <button type="submit">Reset Data</button>
+    </form>
+</div>

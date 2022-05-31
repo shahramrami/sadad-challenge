@@ -1,0 +1,41 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@model ConfigViewModel;
+
+<div class="text-center">
+    <h1 class="display-4">SADAD Challenge</h1>
+    <p>
+        The Currency Converter
+    </p>
+</div>
+
+<div class="content">
+    <div class="text-danger">
+        @Html.ValidationSummary()
+    </div>
+    <form method="post">
+        <label>Amount :</label>
+        <input type="number" asp-for="Amount">
+        <label>From :</label>
+        <select asp-for="fromCurrency">
+            <option>USD</option>
+            <option>EUR</option>
+            <option>CAD</option>
+            <option>GBR</option>
+        </select>
+        <label>TO :</label>
+        <select asp-for="toCurrency">
+            <option>USD</option>
+            <option>EUR</option>
+            <option>CAD</option>
+            <option>GBR</option>
+        </select>
+        <button type="submit">Convert</button>
+    </form>
+
+</div>
+<div class="result">
+    <br>
+    <span>Result : @ViewBag.Result</span>
+</div>
