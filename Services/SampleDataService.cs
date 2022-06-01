@@ -23,7 +23,7 @@ public class SampleDataService : ISampleDataService
     public SampleDataService(AppDbContext context)
     {
         _context = context ?? throw new ArgumentNullException(nameof(context));
-        _config = _context.Set<Config>() ?? throw new ArgumentNullException(nameof(context));
+        _config = _context.Set<Config>();
     }
 
     public void SeedData()

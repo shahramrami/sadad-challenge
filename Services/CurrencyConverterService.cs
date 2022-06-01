@@ -35,11 +35,6 @@ public class CurrencyConverter : ICurrencyConverter
     public double Convert(string? fromCurrency, string? toCurrency, double amount)
     {
         var config = _sampleDataService.ToList();
-        var source = config.SingleOrDefault(x => x.fromCurrency == fromCurrency && x.toCurrency == toCurrency);
-        if (source != null)
-        {
-            return Math.Round(amount * source.Rate, 2);
-        }
 
         var fCurrency = config.SingleOrDefault(x => x.toCurrency == fromCurrency);
         var tCurrency = config.SingleOrDefault(x => x.toCurrency == toCurrency);
