@@ -551,23 +551,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\PayamSaman\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\shahram\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\rami\\Projects\\Sadad\\chalange\\sadad\\sadad.csproj",
+      "projectUniqueName": "D:\\Projects\\Sadad\\chalange\\sadad-challenge\\sadad.csproj",
       "projectName": "sadad",
-      "projectPath": "E:\\rami\\Projects\\Sadad\\chalange\\sadad\\sadad.csproj",
-      "packagesPath": "C:\\Users\\PayamSaman\\.nuget\\packages\\",
-      "outputPath": "E:\\rami\\Projects\\Sadad\\chalange\\sadad\\obj\\",
+      "projectPath": "D:\\Projects\\Sadad\\chalange\\sadad-challenge\\sadad.csproj",
+      "packagesPath": "C:\\Users\\shahram\\.nuget\\packages\\",
+      "outputPath": "D:\\Projects\\Sadad\\chalange\\sadad-challenge\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\PayamSaman\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\shahram\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -620,7 +616,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   }

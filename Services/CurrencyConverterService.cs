@@ -35,17 +35,17 @@ public class CurrencyConverter : ICurrencyConverter
     public double Convert(string? fromCurrency, string? toCurrency, double amount)
     {
         var config = _sampleDataService.ToList();
-        var s = config.SingleOrDefault(x => x.fromCurrency == fromCurrency && x.toCurrency == toCurrency);
-        if (s != null)
+        var source = config.SingleOrDefault(x => x.fromCurrency == fromCurrency && x.toCurrency == toCurrency);
+        if (source != null)
         {
-            return Math.Round(amount * s.Rate, 2);
+            return Math.Round(amount * source.Rate, 2);
         }
 
-        var fc = config.SingleOrDefault(x => x.toCurrency == fromCurrency);
-        var tc = config.SingleOrDefault(x => x.toCurrency == toCurrency);
-        if (fc != null && tc != null)
+        var fCurrency = config.SingleOrDefault(x => x.toCurrency == fromCurrency);
+        var tCurrency = config.SingleOrDefault(x => x.toCurrency == toCurrency);
+        if (fCurrency != null && tCurrency != null)
         {
-            return Math.Round((amount / fc.Rate) * tc.Rate, 2);
+            return Math.Round((amount / fCurrency.Rate) * tCurrency.Rate, 2);
         }
         else
         {

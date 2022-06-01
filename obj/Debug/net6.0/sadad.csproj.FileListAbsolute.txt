@@ -29,3 +29,14 @@ E:\rami\Projects\Sadad\chalange\sadad\bin\Debug\net6.0\Microsoft.EntityFramework
 E:\rami\Projects\Sadad\chalange\sadad\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.InMemory.dll
 E:\rami\Projects\Sadad\chalange\sadad\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
 E:\rami\Projects\Sadad\chalange\sadad\obj\Debug\net6.0\sadad.csproj.CopyComplete
+D:\Projects\Sadad\chalange\sadad-challenge\obj\Debug\net6.0\sadad.csproj.AssemblyReference.cache
+D:\Projects\Sadad\chalange\sadad-challenge\obj\Debug\net6.0\sadad.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Sadad\chalange\sadad-challenge\obj\Debug\net6.0\sadad.AssemblyInfoInputs.cache
+D:\Projects\Sadad\chalange\sadad-challenge\obj\Debug\net6.0\sadad.AssemblyInfo.cs
+D:\Projects\Sadad\chalange\sadad-challenge\obj\Debug\net6.0\sadad.csproj.CoreCompileInputs.cache
+D:\Projects\Sadad\chalange\sadad-challenge\obj\Debug\net6.0\sadad.MvcApplicationPartsAssemblyInfo.cache
+D:\Projects\Sadad\chalange\sadad-challenge\obj\Debug\net6.0\sadad.RazorAssemblyInfo.cache
+D:\Projects\Sadad\chalange\sadad-challenge\obj\Debug\net6.0\sadad.RazorAssemblyInfo.cs
+D:\Projects\Sadad\chalange\sadad-challenge\obj\Debug\net6.0\sadad.dll
+D:\Projects\Sadad\chalange\sadad-challenge\obj\Debug\net6.0\refint\sadad.dll
+D:\Projects\Sadad\chalange\sadad-challenge\obj\Debug\net6.0\sadad.pdb
