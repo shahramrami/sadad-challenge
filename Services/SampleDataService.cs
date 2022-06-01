@@ -69,7 +69,7 @@ public class SampleDataService : ISampleDataService
 
     public void Clear()
     {
-        _config.RemoveRange(this._config.ToList());
+        _config.RemoveRange(_config.ToList());
         _context.SaveChanges();
     }
 }
